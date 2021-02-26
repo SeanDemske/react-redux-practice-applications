@@ -1,0 +1,35 @@
+
+
+.MemeComponent {
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    width: max-content;
+    margin: 2rem;
+}
+
+.btn-delete {
+    position: absolute;
+    right: 0;
+}
+
+.top-text,
+.bottom-text {
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
+.top-text {
+    top: 0;
+}
+
+.bottom-text {
+    bottom: 0;
+}
